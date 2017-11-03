@@ -14,6 +14,7 @@ gem "bootsnap", require: false
 gem "puma", "~> 3.0"
 gem "uglifier", ">= 1.3.0"
 gem "therubyracer"
+gem "figaro"
 
 gem "faker", "~> 1.8.4"
 
