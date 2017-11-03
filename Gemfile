@@ -13,6 +13,7 @@ gem "bootsnap", require: false
 
 gem "puma", "~> 3.0"
 gem "uglifier", ">= 1.3.0"
+gem "therubyracer"
 
 gem "faker", "~> 1.8.4"
 
@@ -30,7 +31,9 @@ group :development do
   gem "web-console"
 
   # deploy
-  gem 'capistrano', '~> 3.10'
-  gem 'capistrano-rails', '~> 1.3'
-  gem 'capistrano-rbenv', '~> 2.1'
+  gem "capistrano", "~> 3.10"
+  gem "capistrano-rails", "~> 1.3"
+  gem "capistrano-bundler", "~> 1.3"
+  gem "capistrano-passenger"
+  gem "capistrano-rbenv", "~> 2.1"
 end
