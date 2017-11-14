@@ -6,7 +6,12 @@ This is the open-source repository for dcm, based on [Decidim](https://github.co
 
 ## Deploying the app
 
-An opinionated guide to deploy this app to Heroku can be found at [https://github.com/codegram/decidim-deploy-heroku](https://github.com/codegram/decidim-deploy-heroku).
+We're working on using capistrano to deploy this application, using nginx, Passenger, PostgreSQL and redis on Ubuntu 16.04 LTS. 
+
+```
+cap staging deploy 
+cap production deploy 
+```
 
 ## Setting up the application
 
