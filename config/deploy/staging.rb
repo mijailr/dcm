@@ -1,1 +1,3 @@
-server "beta.dcm.alabs.org", user: "ruby-data", roles: %w{app db web}
+server "stag-alabs-dcm", user: "ruby-data", roles: %w{app db web}
+set :branch, "staging"
+set :rails_env, "staging"
