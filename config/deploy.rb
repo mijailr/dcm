@@ -3,7 +3,7 @@
 lock "~> 3.11.0"
 
 set :application, "dcm"
-set :repo_url, "https://github.com/alabs/dcm"
+set :repo_url, "https://github.com/mijailr/dcm"
 set :deploy_to, "/home/ruby-data/app"
 
 set :passenger_restart_with_touch, true
